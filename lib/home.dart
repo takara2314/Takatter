@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
 
   // タカートライン(タカートを表示するタイムライン)
   Widget takertLine() {
-    return Container(
+    return Expanded(
       child: ListView.builder(
         scrollDirection: Axis.vertical,
         shrinkWrap: true,

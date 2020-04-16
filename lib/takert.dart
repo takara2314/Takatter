@@ -39,6 +39,7 @@ class _TakertPageState extends State<TakertPage> {
   // タカートするテキストを入れる場所
   Widget takertTextBox() {
     return TextField(
+      // このTextFieldを管理するための変数
       controller: textController,
       style: takertTextStyle(),
       decoration: InputDecoration(
