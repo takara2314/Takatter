@@ -21,7 +21,8 @@ class _TakertPageState extends State<TakertPage> {
       ),
     );
   }
-    // 標準的なアプリバー
+
+  // 標準的なアプリバー
   Widget basicAppBar() {
     return AppBar(
       title: Text('タカートする',
