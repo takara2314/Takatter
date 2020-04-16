@@ -13,9 +13,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.green,
       ),
       home: HomePage(),
-      routes: {
-        '/takert': (BuildContext context) => TakertPage(),
-      }
     );
   }
 }
